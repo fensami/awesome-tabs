@@ -1,0 +1,219 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+/*====================
+	 Default
+======================*/
+*,
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+big,
+cite,
+code,
+del,
+img,
+q,
+small,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+footer,
+header,
+menu,
+nav,
+section,
+mark,
+audio,
+video,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+::before,
+::after {
+  outline: none;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-bar {
+  padding: 20px 0;
+  background: #ecf0fb;
+}
+.top-bar .top-bar-content {
+  display: flex;
+  justify-content: space-between;
+}
+.top-bar .top-bar-content .top-info-list {
+  display: flex;
+  gap: 30px;
+}
+.top-bar .top-bar-content .top-info-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top-bar .top-bar-content .top-info-list li a {
+  color: black;
+  transition: 0.4s;
+}
+.top-bar .top-bar-content .top-info-list li a:hover {
+  color: blue;
+}
+.top-bar .top-bar-content .top-info-list li .info-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.36px;
+}
+.top-bar .top-bar-content .top-social-link {
+  display: flex;
+  gap: 25px;
+}
+.top-bar .top-bar-content .top-social-link i {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.menu-bar .menu-bar-content {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  border: 1px solid red;
+}
+.menu-bar .menu-bar-content .main-menu {
+  background: yellow;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+.menu-bar .menu-bar-content .main-menu .has-dropdown {
+  border: 1px solid black;
+}
+.menu-bar .menu-bar-content .main-menu .has-dropdown > a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.menu-bar .menu-bar-content .main-menu .has-dropdown > a::after {
+  font-family: "icomoon";
+  content: "\e900";
+  speak: never;
+  font-size: calc(100% - 2px);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-left: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu-bar .menu-bar-content .main-menu .has-dropdown ul li {
+  background: black;
+  padding: 10px 0;
+  padding: 10px 0 10px 45px;
+  border-bottom: 1px dashed white;
+}
+.menu-bar .menu-bar-content .main-menu .has-dropdown ul li a {
+  font-size: 16px;
+  color: white;
+}
+.menu-bar .menu-bar-content .main-menu li {
+  position: relative;
+}
+.menu-bar .menu-bar-content .main-menu li ul {
+  padding-top: 0;
+  position: absolute;
+  min-width: 220px;
+  top: 120%;
+  opacity: 0;
+  transition: 0.4s;
+}
+.menu-bar .menu-bar-content .main-menu li:hover ul {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

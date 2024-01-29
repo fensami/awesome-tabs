@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?fdwa5o');
+  src:  url('./icomoon.eot?fdwa5o#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?fdwa5o') format('truetype'),
+    url('./icomoon.woff?fdwa5o') format('woff'),
+    url('./icomoon.svg?fdwa5o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.my-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angle-down:before {
+  content: "\e900";
+}
+.icon-angle-left:before {
+  content: "\e901";
+}
+.icon-angle-right:before {
+  content: "\e902";
+}
+.icon-angle-up:before {
+  content: "\e903";
+}
+.icon-api-cloud:before {
+  content: "\e904";
+}
+.icon-arrow-down:before {
+  content: "\e905";
+}
+.icon-arrow-down-long:before {
+  content: "\e906";
+}
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-arrow-left-long:before {
+  content: "\e908";
+}
+.icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-arrow-right-long:before {
+  content: "\e90a";
+}
+.icon-arrow-up:before {
+  content: "\e90b";
+}
+.icon-arrow-up-long:before {
+  content: "\e90c";
+}
+.icon-calander:before {
+  content: "\e90d";
+}
+.icon-calendar-days:before {
+  content: "\e90e";
+}
+.icon-call:before {
+  content: "\e90f";
+}
+.icon-calling:before {
+  content: "\e910";
+}
+.icon-cd-burning:before {
+  content: "\e911";
+}
+.icon-check:before {
+  content: "\e912";
+}
+.icon-check-circle:before {
+  content: "\e913";
+}
+.icon-clock:before {
+  content: "\e914";
+}
+.icon-close:before {
+  content: "\e915";
+}
+.icon-cloud-computing:before {
+  content: "\e916";
+}
+.icon-cloud-storage:before {
+  content: "\e917";
+}
+.icon-comments:before {
+  content: "\e918";
+}
+.icon-data-transper:before {
+  content: "\e919";
+}
+.icon-device-sync:before {
+  content: "\e91a";
+}
+.icon-diler:before {
+  content: "\e91b";
+}
+.icon-diler-wifi:before {
+  content: "\e91c";
+}
+.icon-dobble-angles-down:before {
+  content: "\e91d";
+}
+.icon-dobble-angles-left:before {
+  content: "\e91e";
+}
+.icon-dobble-angles-right:before {
+  content: "\e91f";
+}
+.icon-dobble-angles-up:before {
+  content: "\e920";
+}
+.icon-envelope:before {
+  content: "\e921";
+}
+.icon-envelope-open:before {
+  content: "\e922";
+}
+.icon-facebook:before {
+  content: "\e923";
+}
+.icon-global-connect:before {
+  content: "\e924";
+}
+.icon-home-location:before {
+  content: "\e925";
+}
+.icon-http-s:before {
+  content: "\e926";
+}
+.icon-instagram:before {
+  content: "\e927";
+}
+.icon-internet-cafe:before {
+  content: "\e928";
+}
+.icon-ip-address:before {
+  content: "\e929";
+}
+.icon-linkedin-in:before {
+  content: "\e92a";
+}
+.icon-location:before {
+  content: "\e92b";
+}
+.icon-location-dot:before {
+  content: "\e92c";
+}
+.icon-magnifying-glass:before {
+  content: "\e92d";
+}
+.icon-mail-notification-world:before {
+  content: "\e92e";
+}
+.icon-massage:before {
+  content: "\e92f";
+}
+.icon-minus:before {
+  content: "\e930";
+}
+.icon-network-error:before {
+  content: "\e931";
+}
+.icon-online-shopping:before {
+  content: "\e932";
+}
+.icon-paper-plane-solid:before {
+  content: "\e933";
+}
+.icon-play-t:before {
+  content: "\e934";
+}
+.icon-plus:before {
+  content: "\e935";
+}
+.icon-quote-left:before {
+  content: "\e936";
+}
+.icon-quote-right:before {
+  content: "\e937";
+}
+.icon-share-nodes:before {
+  content: "\e938";
+}
+.icon-ssd:before {
+  content: "\e939";
+}
+.icon-star:before {
+  content: "\e93a";
+}
+.icon-star-solid:before {
+  content: "\e93b";
+}
+.icon-tag:before {
+  content: "\e93c";
+}
+.icon-tech-support:before {
+  content: "\e93d";
+}
+.icon-twitter:before {
+  content: "\e93e";
+}
+.icon-user:before {
+  content: "\e93f";
+}
+.icon-webcam:before {
+  content: "\e940";
+}
+.icon-wifi-hifi:before {
+  content: "\e941";
+}
+.icon-wifi-modem:before {
+  content: "\e942";
+}
+.icon-wifi-printer:before {
+  content: "\e943";
+}
