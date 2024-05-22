@@ -5,8 +5,13 @@ html {
   overflow-x: hidden;
 }
 
+.top-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
 .faq {
-  margin-top: 100px;
+  margin-top: 50px;
   background: #fbf9ee;
   padding: 100px 0;
 }
